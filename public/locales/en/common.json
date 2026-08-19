@@ -1,0 +1,47 @@
+{
+  "navbar": {
+    "home": "Home",
+    "services": "Services",
+    "our-partners": "Our Partners",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookie": "Cookie Policy"
+  },
+
+  "footer": {
+    "contact": "Contact",
+    "email": "info@turkmensolar.com",
+    "address": "Ashgabat, Turkmenistan",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookie": "Cookie Policy",
+    "slogan": "Precision-engineered solar architectures and Tier-1 technology, driving the next generation of reliable power across Turkmenistan.",
+    "rights": "© {{year}} {{company}}. All rights reserved."
+  },
+
+  "cookieBanner": {
+    "title": "Cookie Policy",
+    "body": "We use cookies to analyze traffic and optimize your experience. By clicking \"Accept\", you agree to our use of cookies.",
+    "accept": "Accept",
+    "more": "Learn More"
+  },
+
+  "notFoundPage": {
+    "title": "404",
+    "subtitle": "Page not found",
+    "body": "Sorry, we couldn't find the page you're looking for.\n It might have been moved or deleted.",
+    "returnBtn": "Back to Home"
+  },
+
+  "errorPage": {
+    "title": "Something went wrong",
+    "subtitle": "We encountered an unexpected error on our end. Please try refreshing the page or contact support if the problem persists.",
+    "refreshBtn": "Refresh Page"
+  },
+
+  "loading": {
+    "message": "Loading"
+  }
+}

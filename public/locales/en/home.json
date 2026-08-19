@@ -1,0 +1,130 @@
+{
+  "heroBlock": {
+    "badge": "Turkmen Solar Solution",
+    "titleStart": "Powering Turkmenistan's Future with",
+    "titleAccent": "Clean, Reliable Solar Energy",
+    "description": "An authorized dealer for world-leading solar manufacturers, delivering hardware, engineering, and maintenance for industrial, commercial, and agricultural sites across Turkmenistan.",
+    "feature1": "Industrial / Oil & Gas",
+    "feature2": "Commercial & Urban",
+    "feature3": "Agricultural Remote",
+    "ctaPrimary": "Partner With Us",
+    "ctaSecondary": "Explore Our Solutions"
+  },
+
+  "marketStatsBlock": {
+    "potentialBadge": "The Karakum Advantage",
+    "potentialHeading": "Harnessing Turkmenistan's Limitless Solar Power",
+    "potentialStats": {
+      "days": {
+        "value": "300+",
+        "label": "Bright Days Per Year",
+        "desc": "Optimal weather conditions ensuring your system generates maximum power."
+      },
+      "hours": {
+        "value": "12–14",
+        "label": "Avg. Daylight Hours",
+        "desc": "Long daily generation windows to keep your operations running smoothly."
+      },
+      "capacity": {
+        "value": "655 GW",
+        "label": "National Potential",
+        "desc": "Be at the forefront of Turkmenistan's transition to clean, abundant energy."
+      }
+    },
+    "sourceDisclaimer": "*Data reflects national solar irradiance averages.",
+    "edgeTitle": "The Turkmen Solar Edge",
+    "edgeDesc": "As an authorized partner for Tier-1 manufacturers, we deliver factory-backed warranty protection and local engineering expertise that independent installers simply cannot match.",
+    "alignmentTitle": "Built for the Future",
+    "alignmentDesc": "Our installations align with top-tier international standards, ensuring your business's energy infrastructure is safe, compliant, and built to last decades."
+  },
+
+  "opportunityBlock": {
+    "badge": "Why Choose Solar?",
+    "titleStart": "Smart Energy for",
+    "titleAccent": "Forward-Thinking Businesses",
+    "description": "Switching to solar is no longer just an environmental choice—it is a critical business advantage. Protect your facility from energy volatility while drastically reducing overhead costs.",
+    "ctaButton": "Get a Free Assessment",
+    "imageAlt": "Commercial solar panel installation in Turkmenistan",
+    "metricLabel": "Performance Guarantee",
+    "metricValue": "Tier-1 Manufacturer Warranties",
+    "stats": {
+      "safe": {
+        "value": "Safe",
+        "label": "Reliable Power:",
+        "desc": "Consistent, uninterrupted energy for critical industrial and commercial operations."
+      },
+      "cost": {
+        "value": "ROI",
+        "label": "Cost-Effective:",
+        "desc": "Drastically reduce monthly electricity bills and achieve payback in record time."
+      },
+      "quality": {
+        "value": "Tier-1",
+        "label": "Premium Quality:",
+        "desc": "We exclusively install globally certified, high-efficiency photovoltaic systems."
+      }
+    }
+  },
+
+  "servicesBlock": {
+    "badge": "Our Expertise",
+    "headingStart": "End-to-End",
+    "headingAccent": "Solar Solutions",
+    "steps": {
+      "hardware": {
+        "title": "Premium Equipment",
+        "subtitle": "Tier-1 Hardware",
+        "description": "Direct supply of globally certified solar panels, inverters, and durable racking systems built for the desert climate."
+      },
+      "epc": {
+        "title": "Custom Installation (EPC)",
+        "subtitle": "Engineering & Design",
+        "description": "Full-service project management from site assessment and structural engineering to flawless installation and grid commissioning."
+      },
+      "maintenance": {
+        "title": "Dedicated Maintenance",
+        "subtitle": "Long-Term Support",
+        "description": "Comprehensive servicing, cleaning, and performance monitoring to ensure your investment operates at peak efficiency year after year."
+      }
+    }
+  },
+
+  "partnersBlock": {
+    "badge": "Global Partners",
+    "headingStart": "Tier-1 Technology,",
+    "headingAccent": "Local Expertise",
+    "description": "We are proud to be authorized dealers for the world's leading solar manufacturers, bringing globally certified hardware to Turkmenistan.",
+    "pillars": {
+      "dealership": {
+        "title": "Authorized Dealership",
+        "description": "Direct partnerships with Tier-1 manufacturers, giving you access to fully certified, warrantied equipment."
+      },
+      "performance": {
+        "title": "High-Yield Performance",
+        "description": "Premium hardware guarantees maximum energy output and faster return on investment for your facility."
+      },
+      "reliability": {
+        "title": "Proven Reliability",
+        "description": "Our global brand associations mean your infrastructure is built with technology trusted by industries worldwide."
+      },
+      "deployment": {
+        "title": "Rapid Deployment",
+        "description": "Direct procurement routes secure a steady, reliable supply of modules to keep your project strictly on schedule."
+      }
+    }
+  },
+  
+  "contactBlock": {
+    "badge": "Get in Touch",
+    "headingStart": "Let's Power",
+    "headingAccent": "The Future",
+    "description": "Ready to cut your energy costs and secure a reliable power supply? Let's discuss your project.",
+    "submitButton": "Schedule a Conversation",
+    "contactInfo": {
+      "emailTitle": "Email Us",
+      "email": "info@turkmensolar.com",
+      "locationTitle": "Location",
+      "location": "Ashgabat, Turkmenistan"
+    }
+  }
+}
