@@ -10,6 +10,7 @@ import { Sun, ArrowRight, Zap } from "lucide-react";
 import SliderImg1 from "../../assets/home/slider/slider_img_1.png";
 import SliderImg2 from "../../assets/home/slider/slider_img_2.png";
 import SliderImg3 from "../../assets/home/slider/slider_img_3.png";
+import { Link } from "react-router-dom";
 
 const SLIDER_IMAGES = [SliderImg1, SliderImg2, SliderImg3];
 
@@ -55,7 +56,7 @@ export function HeroBlock() {
                     </FadeIn>
 
                     <FadeIn direction="up" delay={150}>
-                        <Heading className="mb-6 text-5xl font-black leading-[1.1] text-white sm:text-6xl md:text-7xl lg:text-6xl lg:font-extrabold tracking-tight">
+                        <Heading className="mb-6 text-4xl font-black leading-[1.1] text-white sm:text-6xl md:text-7xl lg:text-6xl lg:font-extrabold tracking-tight">
                             {t("heroBlock.titleStart")} {" "}
                             <span className="text-accent">{t("heroBlock.titleAccent")}</span>
                         </Heading>
@@ -86,21 +87,25 @@ export function HeroBlock() {
 
                     <FadeIn direction="up" delay={600}>
                         <div className="flex flex-col gap-4 sm:flex-row">
-                            <Button
-                                size="lg"
-                                className="group flex items-center justify-center gap-3 bg-accent text-primary-900 hover:bg-accent-500 h-16 px-10 text-base font-bold tracking-wide uppercase rounded-lg shadow-lg shadow-accent/30 hover:shadow-xl hover:shadow-accent/40 transition-all duration-300 hover:-translate-y-1 cursor-pointer active:scale-95"
-                            >
-                                {t("heroBlock.ctaPrimary")}
-                                <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
-                            </Button>
-                            <Button
-                                size="lg"
-                                variant="ghost"
-                                className="group flex items-center justify-center gap-3 border-2 border-white/40 bg-white/5 text-white hover:bg-white/10 h-16 px-10 text-base font-bold tracking-wide uppercase rounded-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer active:scale-95 hover:border-white/60"
-                            >
-                                <Zap className="h-5 w-5 text-secondary transition-transform duration-300 group-hover:scale-110" />
-                                {t("heroBlock.ctaSecondary", )}
-                            </Button>
+                            <Link to="/#contact" className="w-full sm:w-auto">
+                                <Button
+                                    size="lg"
+                                    className="group w-full flex items-center justify-center gap-3 bg-accent text-primary-900 hover:bg-accent-500 h-16 px-10 text-base font-bold tracking-wide uppercase rounded-lg shadow-lg shadow-accent/30 hover:shadow-xl hover:shadow-accent/40 transition-all duration-300 hover:-translate-y-1 cursor-pointer active:scale-95"
+                                >
+                                    {t("heroBlock.ctaPrimary")}
+                                    <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
+                                </Button>
+                            </Link>
+                            <Link to="/#services" className="w-full sm:w-auto">
+                                <Button
+                                    size="lg"
+                                    variant="ghost"
+                                    className="group w-full flex items-center justify-center gap-3 border-2 border-white/40 bg-white/5 text-white hover:bg-white/10 h-16 px-10 text-base font-bold tracking-wide uppercase rounded-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer active:scale-95 hover:border-white/60"
+                                >
+                                    <Zap className="h-5 w-5 text-secondary transition-transform duration-300 group-hover:scale-110" />
+                                    {t("heroBlock.ctaSecondary",)}
+                                </Button>
+                            </Link>
                         </div>
                     </FadeIn>
 

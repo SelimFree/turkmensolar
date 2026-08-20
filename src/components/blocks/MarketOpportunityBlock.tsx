@@ -58,6 +58,7 @@ export function MarketOpportunityBlock() {
                           <span className="font-bold text-primary mr-1">
                             {t(`opportunityBlock.stats.${stat.id}.label`)}
                           </span>
+                          <br/>
                           <span className="text-foreground text-sm">
                             {t(`opportunityBlock.stats.${stat.id}.desc`)}
                           </span>
